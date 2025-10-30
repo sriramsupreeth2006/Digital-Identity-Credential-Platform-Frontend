@@ -89,9 +89,13 @@ function Login() {
           <div className="login-footer">
             <p>
               Don’t have an account?{" "}
-              <a href="#" className="register-link">
+              <button
+                type="button"
+                className="register-link"
+                onClick={() => navigate("/register")}
+              >
                 Register here
-              </a>
+              </button>
             </p>
             <p>
               Need assistance?{" "}
