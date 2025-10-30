@@ -27,7 +27,12 @@ function Home() {
             their digital identity with dignity and security.
           </p>
           <div className="hero-buttons">
-            <button className="primary-btn">Get Started</button>
+            {/* ✅ Activated "Get Started" button */}
+            <button className="primary-btn" onClick={() => navigate("/register")}>
+                Get Started
+            </button>
+
+
             <button
               className="secondary-btn"
               onClick={() => navigate("/login")}
@@ -37,8 +42,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero-image">
-        </div>
+        <div className="hero-image"></div>
       </section>
 
       {/* Why Digital Identity Matters */}
