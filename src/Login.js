@@ -72,9 +72,14 @@ function Login() {
                 />{" "}
                 Remember me
               </label>
-              <a href="#" className="forgot-link">
+              <button
+              type="button"
+              className="forgot-link"
+              onClick={() => navigate("/reset-password")}
+              >
                 Forgot password?
-              </a>
+              </button>
+
             </div>
 
             <button type="submit" className="primary-btn full-width">

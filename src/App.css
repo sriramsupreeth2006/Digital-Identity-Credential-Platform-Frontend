@@ -478,3 +478,112 @@
   background-color: #007bff;
   color: #fff;
 }
+.reset-page {
+  background-color: #f2f8ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.reset-container {
+  text-align: center;
+  color: #1d3557;
+  width: 100%;
+  max-width: 420px;
+}
+
+.reset-header {
+  margin-bottom: 20px;
+}
+
+.reset-icon {
+  font-size: 48px;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.reset-header h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.reset-box {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.email-icon {
+  font-size: 40px;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.reset-box h3 {
+  color: #003366;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.reset-box p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.reset-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccd7e0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.reset-box input:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+.encryption-note {
+  font-size: 13px;
+  color: #555;
+  background-color: #f2f8ff;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.back-login {
+  margin-top: 15px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+.forgot-link {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
