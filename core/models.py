@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import AbstractUser
 # Table 1: Refugee (Main User Information)
 class Refugee(models.Model):
     # Step 1 – Personal Information
@@ -53,3 +53,9 @@ class AdminUser(models.Model):
 
     def __str__(self):
         return f"{self.username} ({self.role})"
+class CustomUser(AbstractUser):
+    email = models.EmailField(unique=True)
+    password = models.CharField(max_length=128)
+
+    def __str__(self):
+        return self.email
